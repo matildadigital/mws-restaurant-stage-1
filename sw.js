@@ -1,6 +1,4 @@
 var staticCacheName = 'restaurants-static-v1';
-var imagesCache = 'restaurant-images';
-var allCaches = [staticCacheName, imagesCache];
 
 self.addEventListener('fetch', function(event){
     console.log(event.request);
@@ -60,3 +58,5 @@ self.addEventListener('fetch', function(event) {
     }
   }));
 });
+
+//Attributions: https://github.com/mdn/sw-test/
